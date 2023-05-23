@@ -1,1 +1,69 @@
+:root {
+    --color-light: #FFF5EB;
+    --color-white: #FFFFFF;
+    --bg-color: #E5E5E5;
+    --color-black: #161722;
+    --color-olov: #FFD2A4;
+}
 
+.color1 {
+    background-color: #0D0D0D !important;
+}
+
+nav {
+    width: 100% !important;
+    height: 80px !important;
+}
+
+.container {
+    margin-left: 160px;
+    margin-right: 110px;
+}
+
+.d-flex > button {
+    background-color: var(--color-olov);
+    color: var(--color-black);
+    backdrop-filter: blur(40px);
+    border-radius: 12px;
+    width: 179px;
+    height: 59px;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.v1 {
+    border-left: solid var(--color-white);;
+    height: 80px;
+    margin-left: 64px;
+    opacity: 10%;
+    margin-right: 64px;
+}
+
+.navbar-nav > li > a {
+    margin-right: 48px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar-nav > li {
+    transition: 1.2s;
+}
+
+.navbar-nav > li:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    transition: 1.54s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
